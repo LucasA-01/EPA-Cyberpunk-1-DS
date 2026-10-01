@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMMAND BAR</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+    <header>
+        <p>Arasaka NetOS [versão 12.4.2077] <br>
+(c) 2077 Arasaka Corporation. Todos os direitos reservados.</p>
+    </header>
+
+
+    <main id="terminal">
+    <!-- Menu de Opções -->
+    <nav id="menu-principal">
+        <ul>
+            <li class="opcao">[1] Missão 1</li>
+            <li class="opcao">[2] Missão 2</li>
+        </ul>
+    </nav>
+
+    <!-- Formulário de Comando -->
+    <output class="resposta" for="comando">
+
+    </output>
+
+    <form id="console-input">
+        <label class="input" for="comando"><span>C:\Users\Anonymous&gt;</span><div class="apagar"><input class="comando" name="comando" autofocus autocomplete="off"></div></label>
+    </form>
+
+    <!-- Área de Feedback/Erro -->
+</main>
+
+    <!-- JS -->
+    <script src="JS/main.js" defer></script>
+    
+</body>
+</html>

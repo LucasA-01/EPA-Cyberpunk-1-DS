@@ -1,0 +1,29 @@
+ul {
+    list-style: none;
+}
+
+body {
+  background: #000;
+  font-family: monospace;
+  font-size: 16px;
+  color: #f1f1f1;
+}
+
+#terminal {
+    margin-top: 2%;
+}
+
+input {
+  background: #000;
+  color: #096301;
+  border: none;
+  outline: none;
+  font-family: monospace;
+  font-size: 16px;
+  caret-shape: block;
+  caret-color: #f1f1f1;
+}
+
+.input {
+  display: flex;
+}
